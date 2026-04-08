@@ -1,1 +1,3 @@
 # calebkayser-web-project
+Project 2 - HTML Foundation Page
+For Project 2, I created a simple HTML webpage to practice the basics of building a site. I chose football as my theme because it is my favorite sport and something I enjoy watching. On my page, I added paragraphs, a list, a table, an image, and a link. I also used inline styling to change the background color, text color, and font size. While working on this project, I learned how important it is to organize files correctly so links and images work the right way. I also learned how to fix errors using the W3C Validator. One challenge I had was making sure all the required elements were included and written correctly, but after a few fixes everything worked.
