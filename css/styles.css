@@ -62,3 +62,64 @@ a {
 a:hover {
     color: #ff6600;
 }
+
+section {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+input {
+    padding: 8px;
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #0055aa;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff6600;
+}
+
+#messageBox {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    nav a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    section {
+        max-width: 100%;
+        padding: 15px;
+    }
+}
